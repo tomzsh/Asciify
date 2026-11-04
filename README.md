@@ -29,7 +29,7 @@ Open this directory in Android Studio, let Gradle sync, and run the `app` config
 ./gradlew :app:testDebugUnitTest :app:lintDebug
 ```
 
-The prebuilt release APK and its checksum are in `artifacts/`. Build outputs are also available in `app/build/outputs/apk/`.
+Download the signed release APK and its checksum from [GitHub Releases](https://github.com/tomzsh/Asciify/releases/latest). Local build outputs are available in `app/build/outputs/apk/`.
 
 | Build | App name | Application ID | Purpose |
 |---|---|---|---|
