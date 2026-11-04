@@ -1,0 +1,6 @@
+# Copy to .signing/release.properties; keep the real file and keystore private.
+storeFile=.signing/asciify-release.p12
+storeType=PKCS12
+storePassword=replace-with-your-store-password
+keyAlias=asciify-release
+keyPassword=replace-with-your-key-password
